@@ -11,7 +11,13 @@ element {
     --NUDE:#938274;
 }
 
+body {
+    display: grid;
+    grid-template-rows: 60px 1fr 300px ;
+}
+
 /* HEADER */
+
 
 
 /* CONTAINER QUEM SOMOS */
