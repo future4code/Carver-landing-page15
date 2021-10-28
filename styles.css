@@ -3,8 +3,25 @@
     padding: 0;
 }
 
+element {
+    --AMARELO:#E6AF2E ;
+    --MARROM:#50260F ;
+    --VERDE:#001514 ;
+    --BRANCO:#FBFFFE;
+    --NUDE:#938274;
+}
+
+/* HEADER */
+
+
+/* CONTAINER QUEM SOMOS */
+
+
+
+/* CONTAINER PRODUTOS */
+
 #button {
     width: 5%;
-    background-color: aqua;
+    background-color: var(--AMARELO);
     border: none;
 }
