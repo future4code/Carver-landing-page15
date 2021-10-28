@@ -11,6 +11,12 @@ element {
     --NUDE:#938274;
 }
 
+section {
+    border: 1px solid black;
+}
+
+/* BODY */
+
 body {
     display: grid;
     grid-template-rows: 60px 1fr 300px ;
