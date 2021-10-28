@@ -3,8 +3,38 @@
     padding: 0;
 }
 
+element {
+    --AMARELO:#E6AF2E ;
+    --MARROM:#50260F ;
+    --VERDE:#001514 ;
+    --BRANCO:#FBFFFE;
+    --NUDE:#938274;
+}
+
+section {
+    border: 1px solid black;
+}
+
+
+/* BODY */
+
+body {
+    display: grid;
+    grid-template-rows: 60px 1fr 300px ;
+}
+
+/* HEADER */
+
+
+
+/* CONTAINER QUEM SOMOS */
+
+
+
+/* CONTAINER PRODUTOS */
+
 #button {
     width: 5%;
-    background-color: aqua;
+    background-color: var(--AMARELO);
     border: none;
 }
