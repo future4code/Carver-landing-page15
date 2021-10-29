@@ -410,3 +410,72 @@ footer{
 .linha2 p {
     color: var(--VERDE);
 }
+
+
+/* @MEDIA RESPONSIVIDADE */
+
+@media screen and (max-width: 375px){
+    body {
+        display: grid;
+        grid-template-rows: 60px 1fr 450px ;
+    }
+    .container-form {
+        margin-left: 20vw;
+        width: 100%;
+        display: flex;
+        flex-Direction: column;
+        align-Items: flex-start;
+        justify-Content: space-around;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+    .container-form2{
+        display: grid;
+        width: 100%;
+        display: grid;
+    }
+    .txt-form {
+        width: 83%;
+    }
+    .container-redes h3 {
+        font-size: calc(12px + 450 * ((100vw - 300px) / (1600 - 300)));
+    }
+    .container-redes {
+        display: grid;
+        padding-top: 7%;
+        /* margin-left: 10%; */
+        /* margin-top: 1em; */
+    }
+
+    .container-logo-redes{
+        padding-top: 30%;
+        font-size: calc(12px + 6 * ((100vw - 300px) / (1600 - 300)));
+        display: grid;
+        align-items: end;
+
+    }
+    .container-logo-redes img {
+        padding-top: 10%;
+    }
+    footer {
+        height: 100%;
+        margin-right: 0;
+    }
+    #button-form {
+        height: 25px;
+        width: 84%;
+    }
+    .container-atendimento p {
+        text-align: center;
+    }
+    .container-atendimento {
+        margin-top: 2%;
+        display: grid;
+        align-items: end;
+        font-size: calc(12px + 240 * ((100vw - 300px) / (1600 - 300)))
+    }
+    
+}
+
