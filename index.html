@@ -19,20 +19,21 @@
     <!-- HEADER -->
     <header>
         <div class="container-header">
-            <img src="./img/apenas logo.png" alt="logo">
-            <nav class="container-menu">
-                <div class="container-menu-itens">
-                    <a href="#">Home</a>
-                    <a href="#">Quem Somos</a>
-                    <a href="#">Ajuda</a>
-                    <a href="#">Atendimento</a>
-                </div>
-                <div class="container-login">
-                    <a id="login" href="#">Login</a>
-                </div>
-            </nav>
+            <img src="./img/apenas logo.png" alt="logo" width="50">
+            <div>
+                <nav class="container-menu">
+                    <div class="container-menu-itens">
+                        <a href="#">Home</a>
+                        <a href="#">Quem Somos</a>
+                        <a href="#">Ajuda</a>
+                        <a href="#">Atendimento</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="container-login">
+                <a id="login" href="#">Login</a>
+            </div>
         </div>
-
     </header>
     <!-- MAIN -->
     <main>
@@ -127,27 +128,34 @@
     <!-- FOOTER -->
     <footer>
         <div class="container-redes">
+            <h3>Redes Sociais</h3>
+            <a target="_blank" href="https://www.instagram.com/">
+                <img src="./img/icon-instagram-100.png" alt="instagram" width="60px">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/">
+                <img src="./img/icons8-facebook-100.png" alt="facebook" width="60px">
+            </a>
+            <a target="_blank" href="https://twitter.com/">
+                <img src="./img/icons8-twitter-100.png" alt="twitter" width="60px">
+            </a>
 
         </div>
         <div class="container-atendimento">
-            <a href="#">
-                <img src="./img/icon-instagram-100.png" alt="instagram">
-            </a>
-            <a href="#">
-                <img src="./img/icons8-facebook-100.png" alt="facebook">
-            </a>
-            <a href="#">
-                <img src="./img/icons8-twitter-100.png" alt="twitter">
-            </a>
+            <h3>Atendimento</h3>
+            <p>+55 11 3333-3333</p>
+            <p>+55 11 7777-7777</p>
+            <p>Perguntas Frequentes</p>
+            <p>sac@4food.com.br</p>
         </div>
         <div class="container-form">
-            <form>
-                <label for="fname">Nome:</label><br>
+            <h3>Faça contato!</h3>
+            <form class="formulario">
+                <label for="fname">Nome:</label>
                 <input type="text" id="fname" name="fname"><br>
-                <label for="lname">E-mail</label><br>
-                <input type="text" id="lname" name="lname">
-                <label for="txt">Mensagem</label><br>
-                <textarea name="txt" id="txt" cols="30" rows="5"></textarea>
+                <label for="lname">E-mail:</label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="txt">Mensagem:</label>
+                <textarea name="txt" id="txt" cols="30" rows="4"></textarea>
                 <button>Enviar</button>
             </form>
         </div>

@@ -35,6 +35,44 @@ body {
 
 /* HEADER */
 
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.container-header>img{
+    margin-left: 2vw;
+    margin-top: 3px;
+}
+
+.container-menu-itens>a{
+    text-decoration: none;
+    color: var(--MARROM);
+}
+
+.container-menu-itens>a{
+    padding-left: 5vh;
+}
+
+.container-menu-itens>a:hover{
+    color: var(--AMARELO);
+}
+
+.container-login{
+    margin-right: 5vw;
+}
+
+.container-login>a{
+    color: var(--MARROM);
+}
+
+.container-login>a:hover{
+    color: var(--AMARELO);
+}
+
+
 
 
 /* CONTAINER QUEM SOMOS */
@@ -125,4 +163,64 @@ body {
     color: var(--BRANCO);
     background-color: var(--AMARELO);
     border: none;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background-color: var(--NUDE);
+    justify-content: space-around; 
+}
+
+.container-redes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    color: var(--VERDE);
+}
+
+.container-redes>h3{
+    padding-bottom: 2vh;
+}
+
+.container-atendimento{
+    margin-top: 3vh;
+    color: var(--VERDE);
+}
+
+.container-atendimento>h3{
+    padding-bottom: 2vh;
+}
+
+.container-atendimento>p{
+    padding-bottom: 2vh;
+    text-decoration: underline var(--VERDE)
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    color: var(--VERDE);
+}
+
+.container-form>h3{
+    padding-bottom: 1vh;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formulario>button{
+    margin-top: 1vh;
+    color: var(--VERDE)
+}
+
+.formulario>button:hover{
+    background-color: var(--AMARELO);
+    color: var(--BRANCO);
 }
