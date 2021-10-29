@@ -79,10 +79,10 @@ body {
 .container-inicial {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: nowrap;
     border: none;
-    margin: 15vh 0;
+    margin: 10vw 0;
 }
 
 .logo {
@@ -92,20 +92,22 @@ body {
     min-width: 250px;
     max-width: 20vw;
 }
-.texto {
+.container-texto {
     display: grid;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 50%;
-    margin-left: -30%;
+    /* margin-left: -30%; */
 }
-.texto p {
+.container-texto p {
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin-top: 0px;    
-    font-size: 36px;
+    font-size:
+    /* 36px; */
+    calc(22px + 18 * ((100vw - 300px) / (1600 - 300)));
     color:var(--MARROM);
     text-shadow: 1px 1px 1px var(--NUDE);
 }
@@ -119,8 +121,8 @@ body {
     justify-content: space-around;
     flex-wrap: nowrap;
     border: none;
-    margin-top: 200px;
-    height: 30vh;
+    margin-top: 10vh;
+    /* height: 30vh; */
 }
 
 .titulo-quem-somos{
