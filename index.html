@@ -5,11 +5,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet"  href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- inclusão google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500&family=Montserrat:wght@100;200;500;900&display=swap"
+        rel="stylesheet">
     <title>4FOOD</title>
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
         <div class="container-header">
             <img src="./img/apenas logo.png" alt="logo">
@@ -27,7 +34,9 @@
         </div>
 
     </header>
+    <!-- MAIN -->
     <main>
+        <!-- Seção Inicial -->
         <section class="container-inicial">
             <div class="logo"> <img src="./img/logo-4food.png" alt="logo"></div>
             <div class="texto">
@@ -35,6 +44,7 @@
                 <p>Sem sair de casa, porque o seu conforto é impotante</p>
             </div>
         </section>
+        <!-- Seção Quem Somos -->
         <section class="container-quem-somos">
             <div class="quem-somos">
                 <p>Somos uma empresa do ramo alimentício, com foco no seu bem estar, sem abrir mão do seu conforto</p>
@@ -45,69 +55,76 @@
                     quod sed tempora repudiandae nesciunt, iusto atque facilis pariatur dolorem?</p>
             </div>
         </section>
-        <section class="container-produtos">
-            <div class="section-header">
+        <!-- Seção Produtos -->
+        <section class="section-produtos">
+            <div class="header-produtos">
+                <!-- mudança nome classe -->
                 <div class="titulo-header">
-                    <h1>itens</h1>
+                    <h1>nossos principais produtos</h1>
                 </div>
-                <div class="imagem-setinha">
+                <div class="container-setinha">
+                    <!-- mudança nome classe -->
                     <img src="./img/setinha.png" alt="setinha">
                 </div>
             </div>
-            <div class="container-card">
-                <div class="container-imagem">
-                    <img src="./img/imagem-comida.jpg" alt="comida">
+            <div class="container-produtos">
+                <div class="container-card">
+                    <div class="container-imagem">
+                        <img src="./img/imagem-comida.jpg" alt="comida">
+                    </div>
+                    <div class="titulo-comida">
+                        <h2>comida1</h2>
+                    </div>
+                    <div class="container-peso-preco">
+                        <p>preço: R$ 15,90</p>
+                        <p>peso: 250g</p>
+                    </div>
+                    <button id="button">comprar</button>
                 </div>
-                <div class="titulo-comida">
-                    <h2>comida1</h2>
+                <div class="container-card">
+                    <div class="container-imagem">
+                        <img src="./img/imagem-comida.jpg" alt="comida">
+                    </div>
+                    <div class="titulo-comida">
+                        <h2>comida2</h2>
+                    </div>
+                    <div class="container-peso-preco">
+                        <p>preço: R$ 17,90</p>
+                        <p>peso: 250g</p>
+                    </div>
+                    <button id="button">comprar</button>
                 </div>
-                <div class="container-peso-preco">
-                    <p>preço</p>
-                    <p>peso</p>
+                <div class="container-card">
+                    <div class="container-imagem">
+                        <img src="./img/imagem-comida.jpg" alt="comida">
+                    </div>
+                    <div class="titulo-comida">
+                        <h2>comida3</h2>
+                    </div>
+                    <div class="container-peso-preco">
+                        <p>preço: R$ 19,90</p>
+                        <p>peso: 250g</p>
+                    </div>
+                    <button id="button">comprar</button>
                 </div>
-                <button id="button">#</button>
-            </div>
-            <div class="container-card">
-                <div class="container-imagem">
-                    <img src="./img/imagem-comida.jpg" alt="comida">
+                <div class="container-card">
+                    <div class="container-imagem">
+                        <img src="./img/imagem-comida.jpg" alt="comida">
+                    </div>
+                    <div class="titulo-comida">
+                        <h2>comida4</h2>
+                    </div>
+                    <div class="container-peso-preco">
+                        <p>preço: R$ 18,90</p>
+                        <p>peso: 250g</p>
+                    </div>
+                    <button id="button">comprar</button>
                 </div>
-                <div class="titulo-comida">
-                    <h2>comida1</h2>
-                </div>
-                <div class="container-peso-preco">
-                    <p>preço</p>
-                    <p>peso</p>
-                </div>
-                <button id="button">#</button>
-            </div>
-            <div class="container-card">
-                <div class="container-imagem">
-                    <img src="./img/imagem-comida.jpg" alt="comida">
-                </div>
-                <div class="titulo-comida">
-                    <h2>comida1</h2>
-                </div>
-                <div class="container-peso-preco">
-                    <p>preço</p>
-                    <p>peso</p>
-                </div>
-                <button id="button">#</button>
-            </div>
-            <div class="container-card">
-                <div class="container-imagem">
-                    <img src="./img/imagem-comida.jpg" alt="comida">
-                </div>
-                <div class="titulo-comida">
-                    <h2>comida1</h2>
-                </div>
-                <div class="container-peso-preco">
-                    <p>preço</p>
-                    <p>peso</p>
-                </div>
-                <button id="button">#</button>
             </div>
         </section>
     </main>
+
+    <!-- FOOTER -->
     <footer>
         <div class="container-redes">
 
