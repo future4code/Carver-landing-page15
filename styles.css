@@ -35,6 +35,44 @@ body {
 
 /* HEADER */
 
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.container-header>img{
+    margin-left: 2vw;
+    margin-top: 3px;
+}
+
+.container-menu-itens>a{
+    text-decoration: none;
+    color: var(--MARROM);
+}
+
+.container-menu-itens>a{
+    padding-left: 5vh;
+}
+
+.container-menu-itens>a:hover{
+    color: var(--AMARELO);
+}
+
+.container-login{
+    margin-right: 5vw;
+}
+
+.container-login>a{
+    color: var(--MARROM);
+}
+
+.container-login>a:hover{
+    color: var(--AMARELO);
+}
+
+
 
 
 /* CONTAINER QUEM SOMOS */
@@ -132,8 +170,7 @@ body {
 footer{
     display: flex;
     background-color: var(--NUDE);
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
 
 .container-redes{
@@ -160,7 +197,6 @@ footer{
     padding-bottom: 2vh;
     text-decoration: underline var(--VERDE)
 }
-    
 
 .container-form{
     display: flex;
@@ -172,7 +208,6 @@ footer{
 .container-form>h3{
     padding-bottom: 1vh;
 }
-
 
 .formulario{
     display: flex;
