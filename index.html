@@ -129,16 +129,17 @@
     <footer>
         <div class="container-redes">
             <h3>Redes Sociais</h3>
-            <a target="_blank" href="https://www.instagram.com/">
-                <img src="./img/icon-instagram-100.png" alt="instagram" width="60px">
-            </a>
-            <a target="_blank" href="https://www.facebook.com/">
-                <img src="./img/icons8-facebook-100.png" alt="facebook" width="60px">
-            </a>
-            <a target="_blank" href="https://twitter.com/">
-                <img src="./img/icons8-twitter-100.png" alt="twitter" width="60px">
-            </a>
-
+            <div class="container-logo-redes">
+                <a target="_blank" href="https://www.instagram.com/">
+                    <img src="./img/icon-instagram-100.png" alt="instagram" width="60px">
+                </a>
+                <a target="_blank" href="https://www.facebook.com/">
+                    <img src="./img/icons8-facebook-100.png" alt="facebook" width="60px">
+                </a>
+                <a target="_blank" href="https://twitter.com/">
+                    <img src="./img/icons8-twitter-100.png" alt="twitter" width="60px">
+                </a>
+            </div>
         </div>
         <div class="container-atendimento">
             <h3>Atendimento</h3>
@@ -148,15 +149,21 @@
             <p>sac@4food.com.br</p>
         </div>
         <div class="container-form">
-            <h3>Faça contato!</h3>
-            <form class="formulario">
-                <label for="fname">Nome:</label>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">E-mail:</label>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="txt">Mensagem:</label>
-                <textarea name="txt" id="txt" cols="30" rows="4"></textarea>
-                <button>Enviar</button>
+            <h3 class="header-form">Faça contato!</h3>
+            <form class="formulario-parte1">
+                <div class="container-form1">
+                    <label for="fname">Nome:</label>
+                    <input type="text" name="fname">
+                    <label id="label-email" for="lname">E-mail:</label>
+                    <input type="text" name="lname">
+                </div>
+            </form>
+            <form class="formulario-parte2">
+                <div class="container-form2">
+                    <label class="txt-form" for="txt">Mensagem:</label>
+                    <textarea name="txt" class="txt-form" cols="30" rows="4"></textarea>
+                    <button id="button-form">Enviar</button>
+                </div> 
             </form>
         </div>
     </footer>
