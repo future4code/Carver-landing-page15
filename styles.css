@@ -114,10 +114,29 @@ body {
 /* CONTAINER QUEM SOMOS */
 .container-quem-somos {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     flex-wrap: nowrap;
     border: none;
+    margin-top: 200px;
+    height: 30vh;
+}
+
+.titulo-quem-somos{
+    display: flex;
+    align-self: flex-start;
+    height: 32px;
+    background-color: var(--NUDE-transparente);
+    width: 100%;
+}
+
+.titulo-quem-somos h1{
+    font-size: calc(20px + 8 * ((100vw - 300px) / (1600 - 300)));
+    color: var(--AMARELO);
+    text-shadow: 1px 1px 1px var(--AMARELO);
+    margin-left: 1.5vw;
+    align-self: center;
 }
 
 .quem-somos {
@@ -137,6 +156,7 @@ body {
     margin-right: 2em; 
     font-size: 19px;
     color:var(--MARROM);
+    line-height: 40px;
 }
 
 
@@ -159,7 +179,7 @@ body {
 }
 
 .titulo-header {
-    padding-left: 10px;
+    margin-left: 1.5vw;
     /* border-bottom: var(--NUDE); */
 }
 
@@ -201,14 +221,19 @@ body {
 }
 
 .container-imagem img {
-    min-width: 150px;
+    min-width: 215px;
     max-width: 20vw;
+    width: 100%;
 }
 
 .titulo-comida {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+    max-width: 18vw;
     padding: 3vh 7px;
     color: var(--VERDE);
-    font-size: calc(14px + 6 * ((100vw - 300px) / (1600 - 300)))
+    font-size: calc(14px + 4 * ((100vw - 300px) / (1600 - 300)))
 }
 
 .container-peso-preco {
