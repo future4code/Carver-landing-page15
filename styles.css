@@ -71,11 +71,69 @@ body {
 .container-login>a:hover{
     color: var(--AMARELO);
 }
+/* CONTAINER INICIAL */
+.container-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border: none;
+    
+}
 
-
+.logo {
+    margin-left: -5%;
+}
+.logo img {
+    min-width: 250px;
+    max-width: 20vw;
+}
+.texto {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-left: -30%;
+}
+.texto p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;    
+    font-size: 36px;
+    color:var(--MARROM);
+    text-shadow: 1px 1px 1px var(--NUDE);
+}
 
 
 /* CONTAINER QUEM SOMOS */
+.container-quem-somos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border: none;
+}
+
+.quem-somos {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    align-items: center;
+}
+.quem-somos p {
+    display: grid;
+    justify-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 1em;   
+    margin-right: 2em; 
+    font-size: 19px;
+    color:var(--MARROM);
+}
 
 
 
